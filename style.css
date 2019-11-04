@@ -1,0 +1,17 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+.list{
+	margin:50px auto;
+	width:960px;
+}
+.list-item{
+	padding:20px;
+	text-align:left;
+	list-style:none;
+}
+.list-item:nth-child(odd){
+	background-color:rgb(238, 238, 238);
+}
